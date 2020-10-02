@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--gral font-->
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/97898118ca.js" crossorigin="anonymous"></script>
+    <!--variables style sheet-->
+    <link rel="stylesheet" href="styles/light-style.css" class="style">
+    <!--home style sheet -->
+    <link rel="stylesheet" href="styles/style.css" class="style">
+
+    <!-- <script src="js/app.js"></script> -->
+    <title>Gif.OS</title>
+</head>
+<body id="body">
+    <header class="header" id="header">
+        <nav>
+            <p>Bienvenidos a Guifos.com!------<span>donde los guifs y el estilo de los 90's son tendencia!</span></p>
+        </nav>
+        <div class="header-container" id="header-ctnr">
+            <a href="index.html">
+                <div class="logo"></div>
+            </a>
+
+                <!--menu desktop--> 
+                <div class="menu">
+                    <label >
+                        <input type="button" value="Crear Guifos" class="menu-bottom" id="crear-gfo" >       
+                    </label>
+                    <!--dropdown-->
+                    <div class="chose-topic menu-bottom dpdw-btn" >
+                        <input type="button" value="Elegir tema" class="menu-bottom chose-themes-btn elegir-tema">
+                        <div class="chose-themes-btn arrow-theme dropdown-btn dpdw-btn"></div>
+                        <ol class="dropdown-menu" >
+                            <li>
+                                <input type="button" value="Sailor day" class="light-side">
+                            </li>
+                            <li>
+                                <input type="button" value="Sailor night" class="dark-side">
+                             </li>
+                        </ol>
+                    </div>        
+                    <div class="btn-mis-gfs" id="btn-mis-gfs" onclick="misGfsSectionLS()">
+                            <p> <u>M</u>is Guifos </p> 
+                    </div>
+                </div>
+                                
+            <div class="search-container" id="searcher">
+                <h3>Buscar</h3>
+                <div class="label-container">
+                    <label >
+                        <input type="search" class="input-search" oninput="searching()" placeholder="Busca gifs, hashtags, temas, busca lo que quieras..."> 
+                    </label>
+                    <div class="searching-button " id="go-to-search">
+                        <img src="assets/lupa_inactive.svg" alt="lupa"  class="lupa-search">
+                        <p>Buscar</p>
+                    </div>
+                </div>    
+            </div>
+            <div class="searching-suggest">
+                <ol class="list-search-sugg">
+                    <li class="suggests res" id="cats">gatos</li>
+                    <li class="suggests res" id="dogs">perros</li>
+                    <li class="suggests res" id="horses">caballos</li>
+                </ol>
+            </div>
+        </div>    
+    </header>
+   
+<!-- MAIN / TRENDING & SUGGEST GALLERY -->    
+    <main class="main" id="main-galery">
+        <div class="suggest">
+            <div class="suggest-container">
+                <label >
+                    <input type="text" placeholder=" Hoy te sugerimos:" readonly>
+                </label>
+                <div class="gallery-container">
+                    <div class="container suggest-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                            <div>
+                                <img src="assets/button_close.svg" alt="boton-cerrar">
+                            </div>
+                        </div>
+                        <div class="suggest-img-container">
+                            <img src="/assets/raza.jpg" alt="gif" id="nigga-gifs">
+                            <button class="see-more">Ver más...</button>  
+                        </div>
+                    </div>
+
+                    <div class="container suggest-img">
+                        <div class="description">
+                            <p>#SailorMercury</p>
+                            <div>
+                                <img src="assets/button_close.svg" alt="boton-cerrar">
+                            </div>
+                        </div>
+                        <div class="suggest-img-container">
+                            <img src="/assets/raza.jpg" alt="">
+                            <button class="see-more">Ver más...</button> 
+                        </div>  
+                    </div>
+
+                    <div class="container suggest-img">
+                        <div class="description">
+                            <p>#Fabfive</p>
+                            <div>
+                                <img src="assets/button_close.svg" alt="boton-cerrar">
+                            </div>
+                        </div>
+                        <div class="suggest-img-container">
+                            <img src="/assets/raza.jpg" alt="">
+                            <button class="see-more">Ver más...</button> 
+                        </div>
+                    </div>
+                    
+                    <div class="container suggest-img">
+                        <div class="description">
+                            <p>#Unicorns&Rainbows</p>
+                            <div>
+                                <img src="assets/button_close.svg" alt="boton-cerrar">
+                            </div>
+                        </div>
+                        <div class="suggest-img-container">
+                            <img src="/assets/raza.jpg" alt="">
+                            <button class="see-more">Ver más...</button> 
+                        </div>
+                    </div>
+                </div>    
+            </div>     
+        </div>
+<!-- TRENDING -->
+        <div class="tendences">
+            <label >
+                <input type="text" placeholder="Tendencias:" readonly>
+            </label>
+            <div class="tendences-gallery">
+                <div class="container2">
+                    <div class="img-container">
+                        <img src="/assets/raza.jpg" alt="" class="tendences-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                        </div>   
+                    </div>    
+                </div>
+                <div class="container2">
+                    <div class="img-container">
+                        <img src="/assets/raza.jpg" alt="" class="tendences-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                        </div>   
+                    </div>    
+                </div>
+                <div class="container2">
+                    <div class="img-container">
+                        <img src="/assets/raza.jpg" alt="" class="tendences-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                        </div>   
+                    </div>    
+                </div>
+                <div class="container2">
+                    <div class="img-container">
+                        <img src="/assets/raza.jpg" alt="" class="tendences-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                        </div>   
+                    </div>    
+                </div>
+                <div class="container5">
+                    <div class="img-container">
+                        <img src="/assets/raza.jpg" alt="" class="tendences-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                        </div>   
+                    </div>    
+                </div>
+                <div class="container2">
+                    <div class="img-container">
+                        <img src="/assets/raza.jpg" alt="" class="tendences-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                        </div>   
+                    </div>    
+                </div>
+                <div class="container2">
+                    <div class="img-container">
+                        <img src="/assets/raza.jpg" alt="" class="tendences-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                        </div>   
+                    </div>    
+                </div>
+                <div class="container2">
+                    <div class="img-container">
+                        <img src="/assets/raza.jpg" alt="" class="tendences-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                        </div>   
+                    </div>    
+                </div>
+                <div class="container2">
+                    <div class="img-container">
+                        <img src="/assets/raza.jpg" alt="" class="tendences-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                        </div>   
+                    </div>    
+                </div>
+                <div class="container5">
+                    <div class="img-container">
+                        <img src="/assets/raza.jpg" alt="" class="tendences-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                        </div>   
+                    </div>    
+                </div>
+                <div class="container2">
+                    <div class="img-container">
+                        <img src="/assets/raza.jpg" alt="" class="tendences-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                        </div>   
+                    </div>    
+                </div>
+                <div class="container2">
+                    <div class="img-container">
+                        <img src="/assets/raza.jpg" alt="" class="tendences-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                        </div>   
+                    </div>    
+                </div>
+                <div class="container2">
+                    <div class="img-container">
+                        <img src="/assets/raza.jpg" alt="" class="tendences-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                        </div>   
+                    </div>    
+                </div>
+                <div class="container2">
+                    <div class="img-container">
+                        <img src="/assets/raza.jpg" alt="" class="tendences-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                        </div>   
+                    </div>    
+                </div>
+                <div class="container5">
+                    <div class="img-container">
+                        <img src="/assets/raza.jpg" alt="" class="tendences-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                        </div>   
+                    </div>    
+                </div>
+                <div class="container2">
+                    <div class="img-container">
+                        <img src="/assets/raza.jpg" alt="" class="tendences-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                        </div>   
+                    </div>    
+                </div>
+                <div class="container2">
+                    <div class="img-container">
+                        <img src="/assets/raza.jpg" alt="" class="tendences-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                        </div>   
+                    </div>    
+                </div>
+                <div class="container2">
+                    <div class="img-container">
+                        <img src="/assets/raza.jpg" alt="" class="tendences-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                        </div>   
+                    </div>    
+                </div>
+                <div class="container2">
+                    <div class="img-container">
+                        <img src="/assets/raza.jpg" alt="" class="tendences-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                        </div>   
+                    </div>    
+                </div>
+                <div class="container5">
+                    <div class="img-container">
+                        <img src="/assets/raza.jpg" alt="" class="tendences-img">
+                        <div class="description">
+                            <p>#Jonathanvaness</p>
+                        </div>   
+                    </div>    
+                </div>
+            </div>    
+        </div>         
+    </main>
+
+<!-- Resultados -->
+    <div class="results" id="res">
+        <label >
+            <input type="text" id="txt-input" readonly>
+        </label>
+        <div class="tendences-gallery">
+            <div class="container2">
+                <div class="img-container">
+                    <img src="/assets/raza.jpg" alt="" class="results-img">
+                    <div class="description">
+                        <p>#Jonathanvaness</p>
+                    </div>   
+                </div>    
+            </div>
+            <div class="container2">
+                <div class="img-container">
+                    <img src="/assets/raza.jpg" alt="" class="results-img">
+                    <div class="description">
+                        <p>#Jonathanvaness</p>
+                    </div>   
+                </div>    
+            </div>
+            <div class="container2">
+                <div class="img-container">
+                    <img src="/assets/raza.jpg" alt="" class="results-img">
+                    <div class="description">
+                        <p>#Jonathanvaness</p>
+                    </div>   
+                </div>    
+            </div>
+            <div class="container2">
+                <div class="img-container">
+                    <img src="/assets/raza.jpg" alt="" class="results-img">
+                    <div class="description">
+                        <p>#Jonathanvaness</p>
+                    </div>   
+                </div>    
+            </div>
+            <div class="container5">
+                <div class="img-container">
+                    <img src="/assets/raza.jpg" alt="" class="results-img">
+                    <div class="description">
+                        <p>#Jonathanvaness</p>
+                    </div>   
+                </div>    
+            </div>
+            <div class="container2">
+                <div class="img-container">
+                    <img src="/assets/raza.jpg" alt="" class="results-img">
+                    <div class="description">
+                        <p>#Jonathanvaness</p>
+                    </div>   
+                </div>    
+            </div>
+            <div class="container2">
+                <div class="img-container">
+                    <img src="/assets/raza.jpg" alt="" class="results-img">
+                    <div class="description">
+                        <p>#Jonathanvaness</p>
+                    </div>   
+                </div>    
+            </div>
+            <div class="container2">
+                <div class="img-container">
+                    <img src="/assets/raza.jpg" alt="" class="results-img">
+                    <div class="description">
+                        <p>#Jonathanvaness</p>
+                    </div>   
+                </div>    
+            </div>
+            <div class="container2">
+                <div class="img-container">
+                    <img src="/assets/raza.jpg" alt="" class="results-img">
+                    <div class="description">
+                        <p>#Jonathanvaness</p>
+                    </div>   
+                </div>    
+            </div>
+            <div class="container5">
+                <div class="img-container">
+                    <img src="/assets/raza.jpg" alt="" class="results-img">
+                    <div class="description">
+                        <p>#Jonathanvaness</p>
+                    </div>   
+                </div>    
+            </div>
+          
+            <div class="container2">
+                <div class="img-container">
+                    <img src="/assets/raza.jpg" alt="" class="results-img">
+                    <div class="description">
+                        <p>#Jonathanvaness</p>
+                    </div>   
+                </div>    
+            </div>
+            <div class="container2">
+                <div class="img-container">
+                    <img src="/assets/raza.jpg" alt="" class="results-img">
+                    <div class="description">
+                        <p>#Jonathanvaness</p>
+                    </div>   
+                </div>    
+            </div>
+            <div class="container2">
+                <div class="img-container">
+                    <img src="/assets/raza.jpg" alt="" class="results-img">
+                    <div class="description">
+                        <p>#Jonathanvaness</p>
+                    </div>   
+                </div>    
+            </div>
+            <div class="container2">
+                <div class="img-container">
+                    <img src="/assets/raza.jpg" alt="" class="results-img">
+                    <div class="description">
+                        <p>#Jonathanvaness</p>
+                    </div>   
+                </div>    
+            </div>
+            <div class="container5">
+                <div class="img-container">
+                    <img src="/assets/raza.jpg" alt="" class="results-img">
+                    <div class="description">
+                        <p>#Jonathanvaness</p>
+                    </div>   
+                </div>    
+            </div>
+            <div class="container2">
+                <div class="img-container">
+                    <img src="/assets/raza.jpg" alt="" class="results-img">
+                    <div class="description">
+                        <p>#Jonathanvaness</p>
+                    </div>   
+                </div>    
+            </div>
+            <div class="container2">
+                <div class="img-container">
+                    <img src="/assets/raza.jpg" alt="" class="results-img">
+                    <div class="description">
+                        <p>#Jonathanvaness</p>
+                    </div>   
+                </div>    
+            </div>
+            <div class="container2">
+                <div class="img-container">
+                    <img src="/assets/raza.jpg" alt="" class="results-img">
+                    <div class="description">
+                        <p>#Jonathanvaness</p>
+                    </div>   
+                </div>    
+            </div>
+            <div class="container2">
+                <div class="img-container">
+                    <img src="/assets/raza.jpg" alt="" class="results-img">
+                    <div class="description">
+                        <p>#Jonathanvaness</p>
+                    </div>   
+                </div>    
+            </div>
+            <div class="container5">
+                <div class="img-container">
+                    <img src="/assets/raza.jpg" alt="" class="results-img">
+                    <div class="description">
+                        <p>#Jonathanvaness</p>
+                    </div>   
+                </div>    
+            </div>
+        </div>    
+    </div>         
+    <script src="js/app.js"></script>
+    <script src="js/app-index2.js"></script>
+</body>
+</html>

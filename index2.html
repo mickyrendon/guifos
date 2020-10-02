@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--gral font-->
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/97898118ca.js" crossorigin="anonymous"></script>
+    <!--variables style sheet-->
+    <link rel="stylesheet" href="styles/light-style.css" class="style">
+    <!--home style sheet -->
+    <link rel="stylesheet" href="styles/style.css" class="style">
+    
+    <!--  <script src="./js/app.js"></script> -->
+    <title>Crear Guifos</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <p>Bienvenidos a Guifos.com!------<span>donde los guifs de los 90's son tendencia!</span></p>
+        </nav>
+        
+    </header>   
+<!--CAMERA SECTION-->
+    <section class="camera">
+        <div class="crear-guifos-intro" id="making-gfs" >
+            <div class="subheader">
+                 <div class="logo-arrow" id="going-back">
+                     <a href="index.html" id="btn-back">
+                         <img src="./assets/arrow.svg" alt="back" class="arrow-back">
+                     </a>
+                     <a href="index.html">
+                         <div class="logo"></div>
+                     </a>
+                 </div>
+             </div>    
+
+        <div class="cam-container">
+            <div class="description">          
+                <h3 id="h3-check">un chequeo antes de empezar</h3>
+                <a href="index.html">
+                    <img src="assets/button_close.svg" alt="boton-cerrar">
+                </a>
+            </div>    
+            <div class="cam-screen">
+                <video src="./assets/raza.jpg" id="video"></video>
+            </div>
+            <div class="buttons-container" id="cam-btn-cont">
+                <div class="timer">
+                    <label id="minutes">00</label>:
+                    <label id="seconds">00</label>
+                </div>
+                <div class="capt-cont">
+                    <input type="image" src="./assets/camera.svg" alt="camera_img" class="menu-bottom cam-btns" id="capture-btn-cam">
+                    <input type="button" value="Capturar" class="menu-bottom cam-btns" id="capture-btn">
+                </div>
+             </div> 
+        </div>
+    </div>
+</section>
+<!-- SUCCESSFULLY UPLOAD GIF -->    
+<section class="crear-guifos-intro" id="menu-bar-success">
+    
+    <div class="steps-container step-windows " id="gfo-upload">
+        <h3>Guifo subido con éxito</h3>
+        <div class="steps step-gfo">
+            <div class="step-list screen-container"> 
+                <div class="cam-screen loading-screen" id="succes-screen"></div>
+                <div class=" second-column succes-status">
+                    <h4>Guifo creado con éxito</h4>
+                    <input type="button" value="Copiar Enlace Guifo" class="menu-bottom btn-gfo" id="copy" onclick="copyGif()">
+                    <a href="" class="menu-bottom btn-gfo" id="download" onclick="downloadGif()" download>
+                        Descargar Guifo
+                    </a>
+                    <input type="button" value="Listo" class="menu-bottom hide-mobile">
+                </div>   
+            </div>                 
+        </div>
+        <div class="buttons-container unhide-desktop">
+            <input type="button" value="Listo" class="menu-bottom" id="listo" onclick="okMyGif()">
+        </div> 
+    </div>
+</section> 
+
+   <script src="./js/app.js"></script>
+   <script src="./js/app-index2.js"></script>
+   <script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
+</body>
+</html>
