@@ -1,0 +1,27 @@
+:root{
+    --main-body-color: #FFF4FD ;
+    --logo-background:url(../assets/gifOF_logo.png) no-repeat center;
+    --nav-background: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);   
+    --buttons-background: #F7C9F3;
+    --copy-download-background:#FFF4FD;
+    --btn-box-shadow:inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    --cursor:pointer;
+    --menu-color: #110038;
+    --dropdown-btns-background: #FFF4FD;
+    --search-txt-color: #B4B4B4;
+    --search-container-background:#E6E6E6;
+    --search-container-box-shadow:inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    --suggest-results-background: #F0F0F0;
+    --see-more-background: #4180F6;
+    --see-more-box-shadow:inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+    --dropdown-background: url(../assets/dropdown.svg) no-repeat center;
+    --lupa-background: url(../assets/lupa_inactive.svg) no-repeat center;
+    --camera-background-image: url(./../assets/camera.svg);
+    --btn-gfo-border:1px solid #110038;
+   /* hover efects */
+    --hover-btns-background:#E6BBE2;
+    --hover-dropdown-background: #F0F0F0;
+    --hover-border:1px dotted #110038;
+}
+
+background-color: #FFF4FD;
