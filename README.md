@@ -16,3 +16,7 @@ and also the page use the localstorage to save a theme for the page (light or da
 -RECORD RTC
 -FONTAWESOME
 -GOOGLE FONTS
+
+# test it yourself
+https://mickyrendon.github.io/guifos/index.html
+
