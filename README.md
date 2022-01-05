@@ -18,7 +18,7 @@ and also the page use the localstorage to save a theme for the page (light or da
 -GOOGLE FONTS
 
 # test it yourself
-[guifos](https://mickyrendon.github.io/guifos/)
+👉 [guifos](https://mickyrendon.github.io/guifos/)
 
 ### screenshots
 -light mode
