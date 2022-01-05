@@ -20,7 +20,7 @@ and also the page use the localstorage to save a theme for the page (light or da
 # test it yourself
 [guifos](https://mickyrendon.github.io/guifos/)
 
-
+### screenshots
 -light mode
 
 <img src="https://user-images.githubusercontent.com/64873799/148278319-fe666125-2412-46ba-abab-4bf4e321d153.png" width="800rem" height="500rem">
