@@ -23,7 +23,7 @@ and also the page use the localstorage to save a theme for the page (light or da
 
 -light mode
 
-<img src="https://user-images.githubusercontent.com/64873799/148278319-fe666125-2412-46ba-abab-4bf4e321d153.png" width="500rem" height="500rem">
+<img src="https://user-images.githubusercontent.com/64873799/148278319-fe666125-2412-46ba-abab-4bf4e321d153.png" width="800rem" height="500rem">
 
 -dark mode
 
@@ -31,14 +31,14 @@ and also the page use the localstorage to save a theme for the page (light or da
 
 -create guifs
 
-<img src="https://user-images.githubusercontent.com/64873799/148280059-f83ac80a-de7e-4048-b8b2-e2005266db4a.png" width="500rem" height="500rem">
-<img src="https://user-images.githubusercontent.com/64873799/148280199-882741a3-c8b7-49ca-8573-125d8320bdb6.png" width="500rem" height="500rem">
+<img src="https://user-images.githubusercontent.com/64873799/148280059-f83ac80a-de7e-4048-b8b2-e2005266db4a.png" width="800rem" height="500rem">
+<img src="https://user-images.githubusercontent.com/64873799/148280199-882741a3-c8b7-49ca-8573-125d8320bdb6.png" width="800rem" height="500rem">
 
 -upload
 
-<img src="https://user-images.githubusercontent.com/64873799/148280300-461b94a6-9e19-42ea-a301-1cc26c98df58.png" width="500rem" height="500rem">
-<img src="https://user-images.githubusercontent.com/64873799/148280583-cd0416ea-e6bb-4ef6-8a93-4a6275daa504.png" width="500rem" height="500rem">
+<img src="https://user-images.githubusercontent.com/64873799/148280300-461b94a6-9e19-42ea-a301-1cc26c98df58.png" width="800rem" height="500rem">
+<img src="https://user-images.githubusercontent.com/64873799/148280583-cd0416ea-e6bb-4ef6-8a93-4a6275daa504.png" width="800rem" height="500rem">
 
 -my guifs
 
-<img src="https://user-images.githubusercontent.com/64873799/148280451-0bba431f-f4e4-4658-8757-8bce06dfaf92.png" width="500rem" height="500rem">
+<img src="https://user-images.githubusercontent.com/64873799/148280451-0bba431f-f4e4-4658-8757-8bce06dfaf92.png" width="800rem" height="500rem">
