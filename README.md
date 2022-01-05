@@ -8,15 +8,16 @@ and also the page use the localstorage to save a theme for the page (light or da
 # Technologies
 -HTML5
 -CSS3
+-js
 # API
 -GIPHY
 
 # libraries
--JAVASCRIPT
 -RECORD RTC
 -FONTAWESOME
 -GOOGLE FONTS
 
 # test it yourself
-https://mickyrendon.github.io/guifos/
+[guifos](https://mickyrendon.github.io/guifos/)
 
+![imagen](https://user-images.githubusercontent.com/64873799/148278319-fe666125-2412-46ba-abab-4bf4e321d153.png)
